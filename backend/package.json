@@ -2,10 +2,12 @@
   "name": "ArrochaUrl",
   "version": "1.0.0",
   "description": "Encurtador de URL",
+  "main": "index.js",
   "author": "Erick Cristhian",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "deploy": "vercel deploy --prod"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -14,6 +16,7 @@
     "mongoose": "^5.13.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "vercel": "^23.0.1"
   }
 }

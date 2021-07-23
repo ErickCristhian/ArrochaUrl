@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://arrocha-url-backend.vercel.app/',
+    baseURL: 'https://arroche-api-node.vercel.app/',
 })
 
 export default api;
